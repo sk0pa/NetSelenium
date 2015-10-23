@@ -19,7 +19,7 @@ namespace TestProject
         [SetUp]
         public void Load_Driver()
         {
-            driver = new ChromeDriver();
+            driver = new FirefoxDriver();
         }
 
         [SetUp]
