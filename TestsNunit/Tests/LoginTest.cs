@@ -1,6 +1,7 @@
 ﻿using System;
 using NUnit.Framework;
 using OpenQA.Selenium.Firefox;
+using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium;
 using TestProject.PageObjects;
 using System.Configuration;
@@ -18,7 +19,7 @@ namespace TestProject
         [SetUp]
         public void Load_Driver()
         {
-            driver = new FirefoxDriver();
+            driver = new ChromeDriver();
         }
 
         [SetUp]
